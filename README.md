@@ -62,13 +62,29 @@ class App extends Component {
   }
 
   // updateColor
-
+  updateColor(color){
+    this.setState({
+      fontColor : color
+    })
+  }
   // updateSize
-
+  updateSize(size){
+    this.setState({
+      fontSize : size
+    })
+  }
   // updateFamily
-
+  updateFamily(family){
+    this.setState({
+      fontFamily : family
+    })
+  }
   // updateEditStatus
-
+  updateEditStatus(status){
+    this.setState({
+      allowEdit : status
+    })
+  }
   render() {
     return (
       <div>
